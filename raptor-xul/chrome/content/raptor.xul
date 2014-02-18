@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin" type="text/css"?>
+<!DOCTYPE window>
+<xul:window title     ="Raptor XUL Example"
+            xmlns:xul ="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+            xmlns:html="http://www.w3.org/1999/xhtml"
+            id        ="raptor"
+            width     ="800"
+            height    ="600">
+    <xul:browser flex="1"
+                 id  ="browser"
+                 src ="chrome://raptor/content/raptor-build/raptor-example/examples/basic/example.html"
+                 type="content-primary" />
+    <xul:statusbar>
+        <xul:statusbarpanel id   ="status"
+                            label=""
+                            crop ="end"
+                            flex ="1" />
+        <xul:progressmeter id    ="progress"
+                           mode  ="determined"
+                           value ="0%"
+                           style ="display: none" />
+        <xul:statusbarpanel id   ="security"
+                            label=""
+                            style="display: none" />
+    </xul:statusbar>
+</xul:window>
