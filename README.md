@@ -1,7 +1,7 @@
 # Raptor XUL Example
 This is an example demo of Raptor running inside of a [XUL application](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/XULRunner).
 
-XUL Runner should be downloaded an exacted next to a `xulrunner` directory (next to `raptor-xul`). 
+XUL Runner should be downloaded an exacted to a `xulrunner` directory (next to `raptor-xul`). 
 
 The Raptor Builder (and the decencies) is **required** to be downloaded and installed to `raptor-xul/chrome/content/raptor-build`. Running `bin/update` should automatically download/update it.
 
